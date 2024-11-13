@@ -1,0 +1,33 @@
+@font-face {
+    font-family: sekaifont;
+    src: url(https://www.fontmirror.com/post-no-bills-jaffna);
+  }
+
+.mountain{
+    width: 100%;
+    height: auto;
+    opacity: 70%;
+}
+
+.vis {
+    z-index: 0;
+}
+.h2 {
+    /* position: relative;
+    bottom: 500px;
+    width: 500px;
+    left: 565PX; */
+    font-family: "sekaifont";
+}
+
+.paragraph {
+    position: relative;
+    bottom: 470px;
+    width: 650px;
+    left: 435PX;
+
+}
+.h3 {
+    display: flex;
+    text-align: center;
+}
