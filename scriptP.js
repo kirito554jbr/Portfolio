@@ -11,3 +11,17 @@ document.addEventListener('DOMContentLoaded', ()=>{
         console.log(xml);
     });
 })
+let projectContent = document.querySelector("#projetList");
+projectContent.innerHTML = '';
+projects.forEach(project => {
+
+    projectContent.innerHTML += `
+    <div class="card">
+        <img src="${project.img}" alt="Avatar" style="width:100px">
+        <div class="container">
+            <h4><b>${project.descriprion}</b></h4>
+            <p>${project.btn}</p>
+        </div>
+    </div>`
+}
+)
